@@ -8,7 +8,7 @@ import javax.persistence.Id;
 @Entity
 public class Notes {
     @Id
-    @GeneratedValue(strategy = GenerationType.AUTO)
+    @GeneratedValue(strategy = GenerationType.AUTO) // Auto increments ID
     Long id;
     String name;
     String description;
